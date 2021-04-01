@@ -271,6 +271,15 @@ An dieser Stelle sind wir mit dem windows-spezifischen Teil der Installation und
 
 </details>
 
+## Ich habe VSCode bereits installiert
+
+<details>
+<summary>Click to expand</summary>
+
+Kein Problem. Du kannst der entsprechenden Anleitung trotzdem einfach folgen. Falls du MacOS nutzt überspring einfach den Schritt mit dem Herunterladen und Installieren von VSCode an sich, falls du Windows benutzt kannst du einfach der Anleitung 100% folgen.
+
+</details>
+
 ## Allgemeiner Teil
 
 Nun testen wir unsere Installation und machen uns dabei schon ein wenig mit VSCode vertraut. Wir werden einen neuen Ordner anlegen, eine neue Datei erstellen, ein Programm schreiben und dieses abarbeiten und debuggen.
