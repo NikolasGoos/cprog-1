@@ -458,9 +458,13 @@ Indem wir links neben die Zeilennummern klicken, können wir sogenannte Breakpoi
 
 ### Sonder- oder Leerzeichen irgendwo im Pfad?
 
-Insbesondere, aber nicht nur, bei der Fehlermeldung
+Insbesondere, aber nicht nur, bei den Fehlermeldungen
 
 #### File not found
+
+oder
+
+#### No such file or directory
 
 sollte man dies nochmal genau überprüfen.
 
@@ -485,6 +489,22 @@ In diesem Fall kann man das Anti-Virus Programm für einen kurzen Moment ausstel
 
 ## Windows
 
+<details>
+<summary>Die Benennung "choco" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausführbaren Programms erkannt.</summary>
+
+Entweder wurde chocolatey nicht installiert, das Ende der Installation wurde nicht abgewartet oder die PowerShell Sitzung wurde nach der Installation nicht beendet.
+
+Also einmal PowerShell beenden und (wieder als Administrator) neu öffnen. Wenn das nicht hilft den vorherigen Schritt wiederholen.
+
+</details>
+
+<details>
+<summary>An existing Chocolatey installation was detected. Installation will not continue.
+For security reasons, this script will not overwrite existing installations.</summary>
+
+
 Eine unvollständige Installation von Chocolatey kann man mit folgendem Befehl entfernen:
 
 > Remove-Item C:\ProgramData\chocolatey -Recurse
+
+</details>
