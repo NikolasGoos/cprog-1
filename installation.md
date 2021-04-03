@@ -489,6 +489,7 @@ In diesem Fall kann man das Anti-Virus Programm für einen kurzen Moment ausstel
 
 ## Windows
 
+### Choco
 <details>
 <summary>Die Benennung "choco" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausführbaren Programms erkannt.</summary>
 
@@ -498,6 +499,7 @@ Also einmal PowerShell beenden und (wieder als Administrator) neu öffnen. Wenn 
 
 </details>
 
+### Existing Chocolatey installation
 <details>
 <summary>An existing Chocolatey installation was detected. Installation will not continue.
 For security reasons, this script will not overwrite existing installations.</summary>
