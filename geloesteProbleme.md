@@ -29,4 +29,4 @@ Interessanterweise ist beim Ausführen des Programms (mittels Code Runner) oft C
 </details>
 
 
-
+Mehr Lösungshinweise gibt es in der [Troubleshooting Sektion](https://github.com/hshf1/cprog/blob/main/installation.md#troubleshooting) der Installationsanleitung.
