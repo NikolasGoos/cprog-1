@@ -73,5 +73,5 @@ Herzlichen Gl\x9Ackwunsch die hast gerade dein erstes Programm in C geschrieben 
 
 Hier was für die fortgeschrittenen!
 
-Alle Angben sollen nun nicht im pirntf() Befehl stehen, sonder von der Tastatur eingelesn werden.
+Alle Angaben sollen nun nicht im pirntf() Befehl stehen, sonder von der Tastatur eingelesn werden.
 </details>
