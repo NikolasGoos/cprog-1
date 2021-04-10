@@ -8,6 +8,7 @@ Geben sie den berechneten Mittelwert im Standardtformat (3 Nachkommastellen) aus
 - [ ] Zahlen anfordern
 - [ ] Ausgabe formatieren
 
+! Diese Gliderung ist nur eine Hilfestellung sie können das Programm auch so schreiben, das direkt alle Punkte erfüllt sind !
 
 ## Schritt 1
 
