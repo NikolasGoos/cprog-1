@@ -1,4 +1,4 @@
-# Aufageb 8
+# Aufgabe 8
 
 ## Teil 1
 <details>
