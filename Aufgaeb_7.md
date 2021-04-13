@@ -1,7 +1,6 @@
 # Aufgabe 7
 
 
-
   Etwickeln Sie ein Programm, das mit hilfe der E12 Reihe den passenden Widerstand mit hilfe einer Parallelschaltung sucht und berechnet.
   
   - [ ] E12 Reihe
@@ -9,7 +8,8 @@
   - [ ] Widerständefinden
   - [ ] Widerstände speicher
   
-
+  
+  
 ## Die E12 Reihe
 
 Schreibe eine Unterfunktion, die einen Integerwert übergeben bekommt und den E12 Widerstand (als float) zurück gibt.
@@ -63,21 +63,36 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
    Benutze pow() mit 10 hoch x/12
   
 
-  ### Tip 2
+### Tip 2
+
 <details>
+  
 <summary>Click to expand</summary>
+  
    Die Parallelschaltung kann als a*b/(a+b) realisiert werden
   
+  
+  
   ### Tip 3
+  
   <details>
+  
   <summary>Click to expand</summary>
    Benutze eine doppelte Schleiche, welche die beiden Unterfunktionen aufruft.
-    ### Tip 4
-
-  <summary>Click to expand</summary>
-    Berechen die Differenz zwischen dem letzten und aktuellen Widerstand im vergleich zum gewünschten Widerstand, speichere den besseren.
-    Speicher den Zähler und übergib ihn am Ende wieder der passenden Unterfunktion, um den ermittelten Widerstand zu bestimmen.
-    Überprüfe ob die Differenz negativ ist
+  
+  <details>
+  
+  
+  ### Tip 4
+  
+<details>
+  
+ <summary>Click to expand</summary>
+  
+   Berechen die Differenz zwischen dem letzten und aktuellen Widerstand im vergleich zum gewünschten Widerstand, speichere den besseren.
+   Speicher den Zähler und übergib ihn am Ende wieder der passenden Unterfunktion, um den ermittelten Widerstand zu bestimmen.
+   Überprüfe ob die Differenz negativ ist
+    
   <details>
   
 
