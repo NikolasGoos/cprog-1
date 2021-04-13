@@ -57,7 +57,7 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
 
 ### Tip 1
 
-<details>
+
 <summary>Click to expand</summary>
   
    Benutze pow() mit 10 hoch x/12
@@ -65,7 +65,7 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
 
 ### Tip 2
 
-<details>
+
   
 <summary>Click to expand</summary>
   
@@ -75,17 +75,17 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
   
   ### Tip 3
   
-  <details>
+
   
   <summary>Click to expand</summary>
    Benutze eine doppelte Schleiche, welche die beiden Unterfunktionen aufruft.
   
-  <details>
+
   
   
   ### Tip 4
   
-<details>
+
   
  <summary>Click to expand</summary>
   
@@ -93,7 +93,7 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
    Speicher den Zähler und übergib ihn am Ende wieder der passenden Unterfunktion, um den ermittelten Widerstand zu bestimmen.
    Überprüfe ob die Differenz negativ ist
     
-  <details>
+  
   
 
   <details>
