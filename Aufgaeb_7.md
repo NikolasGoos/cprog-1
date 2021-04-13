@@ -22,14 +22,6 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   - [ ] Widerstände speicher
 
 
-### Tip 1
-
-<details>
-<summary>Click to expand</summary>
-   Benutze pow() mit 10 hoch x/12
-  
- <details> 
-
   
   ## Parallelschaltung
   
@@ -39,13 +31,6 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   - [x] Parallelschaltung
   - [ ] Widerständefinden
   - [ ] Widerstände speicher
-
-  ### Tip 2
-<details>
-<summary>Click to expand</summary>
-   Die Parallelschaltung kann als a*b/(a+b) realisiert werden
-  
- <details>
   
   
   ## Wiederstände finden
@@ -85,5 +70,19 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
  - [x] Widerständefinden
  - [x] Widerstände speicher
 
+### Tip 1
+
+<details>
+<summary>Click to expand</summary>
+  
+   Benutze pow() mit 10 hoch x/12
+  
+ <details> 
+  ### Tip 2
+<details>
+<summary>Click to expand</summary>
+   Die Parallelschaltung kann als a*b/(a+b) realisiert werden
+  
+ <details>
 
   <details>
