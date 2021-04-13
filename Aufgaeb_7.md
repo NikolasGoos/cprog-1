@@ -57,11 +57,11 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
 
 ### Tip 1
 
-
+<details>
 <summary>Click to expand</summary>
   
    Benutze pow() mit 10 hoch x/12
-  
+  <\details>
 
 ### Tip 2
 
@@ -71,7 +71,7 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
   
    Die Parallelschaltung kann als a*b/(a+b) realisiert werden
   
-  <details>
+  <\details>
   
   ### Tip 3
   
@@ -80,12 +80,11 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
   <summary>Click to expand</summary>
    Benutze eine doppelte Schleiche, welche die beiden Unterfunktionen aufruft.
   
-<details>
+<\details>
   
   
   ### Tip 4
   
-<details>
   
  <summary>Click to expand</summary>
   
@@ -96,4 +95,4 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
   
   
 
-  <details>
+  <\details>
