@@ -65,27 +65,27 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
 
 ### Tip 2
 
-
+<details>
   
 <summary>Click to expand</summary>
   
    Die Parallelschaltung kann als a*b/(a+b) realisiert werden
   
-  
+  <details>
   
   ### Tip 3
   
-
+<details>
   
   <summary>Click to expand</summary>
    Benutze eine doppelte Schleiche, welche die beiden Unterfunktionen aufruft.
   
-
+<details>
   
   
   ### Tip 4
   
-
+<details>
   
  <summary>Click to expand</summary>
   
