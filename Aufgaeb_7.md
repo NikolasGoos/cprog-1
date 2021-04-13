@@ -12,6 +12,8 @@
   
 ## Die E12 Reihe
 
+<details>
+<summary>Click to expand</summary>
 Schreibe eine Unterfunktion, die einen Integerwert übergeben bekommt und den E12 Widerstand (als float) zurück gibt.
 
 Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
@@ -28,10 +30,12 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   
    Benutze pow() mit 10 hoch x/12
   </details>
-
+ </details>
   
   ## Parallelschaltung
   
+  <details>
+<summary>Click to expand</summary>
   Schreibt eine zwietes Unterprogramm, welches zwei Werte übergeben bekommt, aus diesen den Parallelwiderstand berechnet und das Ergebniss zurück gibt.
   
   - [x] E12 Reihe
@@ -42,15 +46,17 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   ### Tip 2
 
 <details>
-  
 <summary>Click to expand</summary>
   
    Die Parallelschaltung kann als a*b/(a+b) realisiert werden
   
   </details>
-  
+   </details>
   
   ## Wiederstände finden
+  
+  <details>
+  <summary>Click to expand</summary>
   
   Der Benutzer soll vor der Ausführung aufgefordert Werden den gesuchten Widerstand anzugeben.
   Schrieben Sie in der main einen Code, welcher für die E12 Reihe bis 10.000 Ohm den Parallelwiderstand jeder möglichen komnbination berechnet.
@@ -64,15 +70,18 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   ### Tip 3
   
 <details>
-  
   <summary>Click to expand</summary>
    Benutze eine doppelte Schleiche, welche die beiden Unterfunktionen aufruft.
   
+</details>
 </details>
   
 
 
 ## Widerstände speicher
+
+<details>
+ <summary>Click to expand</summary>
 
 Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn sie am dichtesten an dem gewünschten Wert sind.
 
@@ -94,6 +103,6 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
    Überprüfe ob die Differenz negativ ist
     
   
-  
+   </details>
 
   </details>
