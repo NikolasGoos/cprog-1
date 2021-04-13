@@ -8,7 +8,11 @@
   - [ ] Parallelschaltung
   - [ ] Widerständefinden
   - [ ] Widerstände speicher
-
+### Tip 2
+<details>
+<summary>Click to expand</summary>
+   Die Parallelschaltung kann als a*b/(a+b) realisiert werden
+  
 
 ## Die E12 Reihe
 
