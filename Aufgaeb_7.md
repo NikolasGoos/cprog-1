@@ -21,6 +21,13 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   - [ ] Widerständefinden
   - [ ] Widerstände speicher
 
+### Tip 1
+
+<details>
+<summary>Click to expand</summary>
+  
+   Benutze pow() mit 10 hoch x/12
+  </details>
 
   
   ## Parallelschaltung
@@ -31,6 +38,16 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   - [x] Parallelschaltung
   - [ ] Widerständefinden
   - [ ] Widerstände speicher
+  
+  ### Tip 2
+
+<details>
+  
+<summary>Click to expand</summary>
+  
+   Die Parallelschaltung kann als a*b/(a+b) realisiert werden
+  
+  </details>
   
   
   ## Wiederstände finden
@@ -44,6 +61,16 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
  - [x] Widerständefinden
  - [ ] Widerstände speicher
 
+  ### Tip 3
+  
+<details>
+  
+  <summary>Click to expand</summary>
+   Benutze eine doppelte Schleiche, welche die beiden Unterfunktionen aufruft.
+  
+</details>
+  
+
 
 ## Widerstände speicher
 
@@ -55,37 +82,11 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
  - [x] Widerständefinden
  - [x] Widerstände speicher
 
-### Tip 1
 
-<details>
-<summary>Click to expand</summary>
-  
-   Benutze pow() mit 10 hoch x/12
-  </details>
-
-### Tip 2
-
-<details>
-  
-<summary>Click to expand</summary>
-  
-   Die Parallelschaltung kann als a*b/(a+b) realisiert werden
-  
-  </details>
-  
-  ### Tip 3
-  
-<details>
-  
-  <summary>Click to expand</summary>
-   Benutze eine doppelte Schleiche, welche die beiden Unterfunktionen aufruft.
-  
-</details>
-  
   
   ### Tip 4
   
-  
+  <details>
  <summary>Click to expand</summary>
   
    Berechen die Differenz zwischen dem letzten und aktuellen Widerstand im vergleich zum gewünschten Widerstand, speichere den besseren.
