@@ -66,3 +66,7 @@ Lass eine Zählschleife laufen und überprüfe welcher Wert kleiner bzw größer
 </details>
 
 </details>
+
+
+
+## Teil 2
