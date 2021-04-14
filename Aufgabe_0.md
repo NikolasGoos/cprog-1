@@ -1,3 +1,4 @@
+
 # Aufgabe 0
 
 Herzlich Wilkommen zu Ihrer ersten Programmieraufgabe in C
@@ -97,7 +98,7 @@ Geben Sie beide Zahlen auf dem Bildschirm aus.
 </details>
 
 Herzlichen Gl\x9Ackwunsch die hast gerade dein erstes Programm in C geschrieben !
-![Mögliche Ausgabe](???)
+
 
 
 ## Level 2
