@@ -6,7 +6,7 @@
   - [ ] E12 Reihe
   - [ ] Parallelschaltung
   - [ ] Widerständefinden
-  - [ ] Widerstände speicher
+  - [ ] Widerstände speichern
   
   
   
@@ -21,7 +21,7 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   - [x] E12 Reihe
   - [ ] Parallelschaltung
   - [ ] Widerständefinden
-  - [ ] Widerstände speicher
+  - [ ] Widerstände speichern
 
 ### Tip 1
 
@@ -36,12 +36,12 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   
   <details>
 <summary>Click to expand</summary>
-  Schreibt eine zwietes Unterprogramm, welches zwei Werte übergeben bekommt, aus diesen den Parallelwiderstand berechnet und das Ergebniss zurück gibt.
+  Schreibt eine zweites Unterprogramm, welches zwei Werte übergeben bekommt, aus diesen den Parallelwiderstand berechnet und das Ergebniss zurück gibt.
   
   - [x] E12 Reihe
   - [x] Parallelschaltung
   - [ ] Widerständefinden
-  - [ ] Widerstände speicher
+  - [ ] Widerstände speichern
   
   ### Tip 2
 
@@ -53,25 +53,25 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   </details>
    </details>
   
-  ## Wiederstände finden
+  ## Widerstände finden
   
   <details>
   <summary>Click to expand</summary>
   
   Der Benutzer soll vor der Ausführung aufgefordert Werden den gesuchten Widerstand anzugeben.
-  Schrieben Sie in der main einen Code, welcher für die E12 Reihe bis 10.000 Ohm den Parallelwiderstand jeder möglichen komnbination berechnet.
+  Schreiben Sie in der main einen Code, welcher für die E12 Reihe bis 10.000 Ohm den Parallelwiderstand jeder möglichen komnbination berechnet.
   
   
  - [x] E12 Reihe
  - [x] Parallelschaltung
  - [x] Widerständefinden
- - [ ] Widerstände speicher
+ - [ ] Widerstände speichern
 
   ### Tip 3
   
 <details>
   <summary>Click to expand</summary>
-   Benutze eine doppelte Schleiche, welche die beiden Unterfunktionen aufruft.
+   Benutze eine doppelte Schleife, welche die beiden Unterfunktionen aufruft.
   
 </details>
 </details>
