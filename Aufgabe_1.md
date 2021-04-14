@@ -1,6 +1,6 @@
 # Aufgabe 1
 
-Das zu entwickeldnde Programm soll die Summe von zwei ganzen Zahlen berechnen.
+Das zu entwickelnde Programm soll die Summe von zwei ganzen Zahlen berechnen.
 Nach der Ausgabe der Ausfgabenstellung sind die beiden Werte anzufordern.
 Die berechnete Summe ist zwei Zeilen tiefer auszugeben.
 
