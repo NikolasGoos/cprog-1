@@ -1,7 +1,8 @@
 # Aufgabe 7
 
-
-  Etwickeln Sie ein Programm, das mit hilfe der E12 Reihe den passenden Widerstand mit hilfe einer Parallelschaltung sucht und berechnet.
+ Ihr sucht für eure Schaltung einen Widerstand. In eurem Baukasten ist aber nur die E12 Reihe von 1 bis 10.000 vorhanden.
+ Entwickeln Sie ein Programm, das mit Hilfe der E12 Reihe den passenden Widerstand durch eine Parallelschaltung näherungsweise berechnet und
+ angibt, welche Widerstände benötigt werden.
   
   - [ ] E12 Reihe
   - [ ] Parallelschaltung
@@ -14,9 +15,10 @@
 
 <details>
 <summary>Click to expand</summary>
+  
 Schreibe eine Unterfunktion, die einen Integerwert übergeben bekommt und den E12 Widerstand (als float) zurück gibt.
 
-Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
+Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten!
 
   - [x] E12 Reihe
   - [ ] Parallelschaltung
@@ -36,7 +38,7 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   
   <details>
 <summary>Click to expand</summary>
-  Schreibt eine zweites Unterprogramm, welches zwei Werte übergeben bekommt, aus diesen den Parallelwiderstand berechnet und das Ergebniss zurück gibt.
+  Schreibt eine zweites Unterprogramm, welches zwei Werte übergeben bekommt, aus diesen den Parallelwiderstand berechnet und das Ergebnis zurückgibt.
   
   - [x] E12 Reihe
   - [x] Parallelschaltung
@@ -59,7 +61,7 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   <summary>Click to expand</summary>
   
   Der Benutzer soll vor der Ausführung aufgefordert Werden den gesuchten Widerstand anzugeben.
-  Schreiben Sie in der main einen Code, welcher für die E12 Reihe bis 10.000 Ohm den Parallelwiderstand jeder möglichen komnbination berechnet.
+  Schreiben Sie in der main einen Code, welcher für die E12 Reihe bis 10.000 Ohm den Parallelwiderstand jeder möglichen Kombination berechnet.
   
   
  - [x] E12 Reihe
@@ -98,11 +100,30 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
   <details>
  <summary>Click to expand</summary>
   
-   Berechen die Differenz zwischen dem letzten und aktuellen Widerstand im vergleich zum gewünschten Widerstand, speichere den besseren.
+   Berechne die Differenz zwischen dem letzten und aktuellen Widerstand im Vergleich zum gewünschten Widerstand, speichere den besseren.
    Speicher den Zähler und übergib ihn am Ende wieder der passenden Unterfunktion, um den ermittelten Widerstand zu bestimmen.
-   Überprüfe ob die Differenz negativ ist
+   Überprüfe, ob die Differenz negativ ist.
     
   
    </details>
 
   </details>
+
+## Zusatz
+
+<details>
+ <summary>Click to expand</summary>
+  
+  Bitte erst dann weiter machen, wenn alles zuvor funktioniert!
+
+### Let's Go
+<details>
+ <summary>Click to expand</summary>
+ 
+ Du kannst nun 3 Widerstände für deinen gesuchten Widerstand benutzen und beliebig anordnen.
+ Schriebe dein Programm so um, dass die gegebene E12 Reihe den gesucht Widerstand aus allen möglichen Kombinationen die beste Kombination berechnet.
+ Die Widerstandswerte und die verwendete Kombination sind am Ende auf dem Bildschirm auszugeben.
+ 
+ </details>
+  </details>
+
