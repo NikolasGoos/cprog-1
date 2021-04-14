@@ -5,7 +5,7 @@
   
   - [ ] E12 Reihe
   - [ ] Parallelschaltung
-  - [ ] Widerständefinden
+  - [ ] Widerstände finden
   - [ ] Widerstände speichern
   
   
@@ -20,7 +20,7 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
 
   - [x] E12 Reihe
   - [ ] Parallelschaltung
-  - [ ] Widerständefinden
+  - [ ] Widerstände finden
   - [ ] Widerstände speichern
 
 ### Tip 1
@@ -64,7 +64,7 @@ Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
   
  - [x] E12 Reihe
  - [x] Parallelschaltung
- - [x] Widerständefinden
+ - [x] Widerstände finden
  - [ ] Widerstände speichern
 
   ### Tip 3
@@ -88,7 +88,7 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
 
  - [x] E12 Reihe
  - [x] Parallelschaltung
- - [x] Widerständefinden
+ - [x] Widerstände finden
  - [x] Widerstände speicher
 
 
