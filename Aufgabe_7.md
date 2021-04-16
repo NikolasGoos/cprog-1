@@ -1,7 +1,7 @@
 # Aufgabe 7
 
-
-  Etwickeln Sie ein Programm, das mit hilfe der E12 Reihe den passenden Widerstand mit hilfe einer Parallelschaltung sucht und berechnet.
+Sie suchen für Ihr Projekt einen Widerstand, leider haben Sie nur einen Baukasten der E12 Reihe mit den Widerständen von 1 bis 10.000.
+Um den richtigen Widerstand zu finden etwickeln Sie ein Programm, das mit hilfe der E12 Reihe den passenden Widerstand durch eine Parallelschaltung ermittelt und ausgibt.
   
   - [ ] E12 Reihe
   - [ ] Parallelschaltung
