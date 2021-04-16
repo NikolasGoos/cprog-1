@@ -52,7 +52,7 @@ pow() befindet sich in der math.h Bibliothek
   </details>
 
   
-  ## Tip - Wiederstände berechnen
+ ## Tip - Wiederstände berechnen
   
   <details>
   <summary>Click to expand</summary>
@@ -84,7 +84,7 @@ Dies wird widerholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird,
   
 
 
-#Tip - Widerstände speicher
+## Tip - Widerstände speicher
 
 <details>
  <summary>Click to expand</summary>
