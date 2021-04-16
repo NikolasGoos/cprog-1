@@ -67,11 +67,17 @@ pow() befindet sich in der math.h Bibliothek
   > int iZähler2=0;
   > 
   > // Doppelte for-Schleife mit den Schleifenvariablen i und k
+  > 
   > for(i=0;i<4;i++){
+  > 
   >   for(k=0;k<4;k++){
+  >   
   >     iZähler++;
+  >     
   >   }
+  >   
   >   iZähler2+=2;
+  >   
   > }
   > 
   > 
