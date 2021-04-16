@@ -30,8 +30,9 @@ Ihr Programm soll die folgenden Punkte erfüllen:
 <summary>Click to expand</summary>
 
 Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
+Geben Sie die E12-Reihe von 1 bis 10.000 an
 
-Benutze die Funktion pow() mit 10 hoch x/12.
+Es kann die Funktion pow() mit 10 hoch x/12 verwendet werden.
 pow() befindet sich in der math.h Bibliothek
 
  </details>
@@ -58,51 +59,40 @@ pow() befindet sich in der math.h Bibliothek
 
  Um alle Widerstandskombinationen zu brechnen kann eine doppelte for-Schleife verwendet werden 
   
-  Beispiel mit den Widerständen R1, R2, R3, R4:
+  Beispiel:
   
-  > R1||R1
-  > R1||R2
-  > R1||R3
-  > R1||R4
+  > int i=0;
+  > int k=0;
+  > int iZähle1r=0;
+  > int iZähler2=0;
   > 
-  > R2||R1
-  > R2||R2
-  > R2||R3
-  > .............
-  > R4||R3
-  > R4||R4
+  > // Doppelte for-Schleife mit den Schleifenvariablen i und k
+  > for(i=0;i<4;i++){
+  >   for(k=0;k<4;k++){
+  >     iZähler++;
+  >   }
+  >   iZähler2+=2;
+  > }
   > 
-
+  > 
+Für i=0 wird in die äußere Schleife gegangen, in dieser steht eine zweite Schleife mit der Schleifenvariable k.
+Zuerst wird die "k"-Schleife durchlaufen, in deisem Beispiel wird iZähler1 jedes mal um 1 erhöht, bis diese Verlassen wird.
+Danach wird iZähler2 um 2 erhöht, damit ist die "i"-Schleife zu enden und i wird um 1 erhöht, wenn die bedingung für i (hier i<4) erfüllt ist dann wird die "i"-Schleife erneut durchlaufen.
+Dies wird widerholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird, da die äußere Schleife verlassen wird. 
 
 </details>
   
 
 
-## Widerstände speicher
+#Tip - Widerstände speicher
 
 <details>
  <summary>Click to expand</summary>
 
-Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn sie am dichtesten an dem gewünschten Wert sind.
-
-
- - [x] E12 Reihe
- - [x] Parallelschaltung
- - [x] Widerständefinden
- - [x] Widerstände speicher
-
-
   
-  ### Tip 4
-  
-  <details>
- <summary>Click to expand</summary>
-  
-   Berechen die Differenz zwischen dem letzten und aktuellen Widerstand im vergleich zum gewünschten Widerstand, speichere den besseren.
-   Speicher den Zähler und übergib ihn am Ende wieder der passenden Unterfunktion, um den ermittelten Widerstand zu bestimmen.
-   Überprüfe ob die Differenz negativ ist
-    
-  
-   </details>
+   Berechen die Differenz zwischen dem aktuellen Widerstand und dem Wunschwiderstand. Achte dabei auch auf das Vorzeichen.
+   Ist der aktuelle Widerstand näher an dem gewünschten Widerstand als der zuletzt gespeicherte, speicher die neuen Werte.
+   Es können die Schleifenvariablen gespiechert werden, da über diese, der Aktuelle Widerstand ermittelt werden kann.
+   Es können auch die ermittelten Widerstände gespeichert werden.
 
   </details>
