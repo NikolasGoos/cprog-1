@@ -98,7 +98,7 @@ Dies wird widerholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird,
   
    Berechen die Differenz zwischen dem aktuellen Widerstand und dem Wunschwiderstand. Achte dabei auch auf das Vorzeichen.
    Ist der aktuelle Widerstand näher an dem gewünschten Widerstand als der zuletzt gespeicherte, speicher die neuen Werte.
-   Es können die Schleifenvariablen gespiechert werden, da über diese, der Aktuelle Widerstand ermittelt werden kann.
+   Es können die Schleifenvariablen gespiechert werden, da über diese der aktuelle Widerstand ermittelt werden kann.
    Es können auch die ermittelten Widerstände gespeichert werden.
 
   </details>
