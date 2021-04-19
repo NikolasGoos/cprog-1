@@ -1,7 +1,7 @@
 # Aufgabe 7
 
 Sie suchen für Ihr Projekt einen Widerstand. Sie haben den Baukasten der E12 Reihe mit den Widerständen von 1 bis 10.000.
-Um den richtigen Widerstand zu finden etwickeln Sie ein Programm, das mit hilfe der E12 Reihe den passenden Widerstand durch eine Parallelschaltung ermittelt und ausgibt.
+Leider ist kein Widerstand dabei, der nah genug an ihrem Wunschwert liegt. Sie möchten dem durch 2 parallel geschaltete Widerstände aus der E12 Reihe möglichst nahe kommen.  Entwickeln Sie ein Programm, das alle Kombinationen automatisch erstellt und das beste Widerstandspaar für Sie ermittelt und ausgibt.
 Ihr Programm soll die folgenden Punkte erfüllen:  
   
   - [ ] Berechnen Sie die E12 Reihe bis 10.000 Ohm und geben Sie diese aus
@@ -10,13 +10,13 @@ Ihr Programm soll die folgenden Punkte erfüllen:
   - [ ] Berechnen Sie jede mögliche Kombination von zwei parallel geschalteten Widerständen der E12-Reihe
   - [ ] Speichern Sie die Kombination mit der kleinsten Differenz zum Wunschwiderstand
   - [ ] Geben Sie die gefundene Kombination von Widerständen aus
-  - [ ] Ermittelt Sie die Abweichung in Ohm und %, und geben Sie diese aus.
+  - [ ] Ermitteln Sie die Abweichung in Ohm und Prozent und geben Sie diese aus
   
   
 # Info E12
  
- Die E12-Reihe ist eine Widerstandsreihe, welche pro Dekade eine Logarithmische verteilung aufweißt.
- Sie hat pro Dekate 12 Widerstandswerte, die sich von Dekade zu Dekade lediglich um den Faktor 10 unterschieden.
+ Die E12-Reihe ist eine Widerstandsreihe, welche eine logarithmische Verteilung aufweist.
+ Sie hat pro Dekade 12 Widerstandswerte, die sich von Dekade zu Dekade lediglich um den Faktor 10 unterscheiden.
  Wie sich die E12-Reihe berechnen lässt kann unter dem Wikipedia-Link nachgelesen werden
  
  Wiki:
@@ -63,8 +63,7 @@ pow() befindet sich in der math.h Bibliothek
   
   > int i=0;
   > int k=0;
-  > int iZähle1r=0;
-  > int iZähler2=0;
+  > int iZaehler1=0;aehler2=0;
   > 
   > // Doppelte for-Schleife mit den Schleifenvariablen i und k
   > 
@@ -72,33 +71,33 @@ pow() befindet sich in der math.h Bibliothek
   > 
   >   for(k=0;k<4;k++){
   >   
-  >     iZähler++;
+  >     iZaehler1++;
   >     
   >   }
   >   
-  >   iZähler2+=2;
+  >   iZaehler2+=2;
   >   
   > }
   > 
   > 
-Für i=0 wird in die äußere Schleife gegangen, in dieser steht eine zweite Schleife mit der Schleifenvariable k.
-Zuerst wird die "k"-Schleife durchlaufen, in deisem Beispiel wird iZähler1 jedes mal um 1 erhöht, bis diese Verlassen wird.
-Danach wird iZähler2 um 2 erhöht, damit ist die "i"-Schleife zu enden und i wird um 1 erhöht, wenn die bedingung für i (hier i<4) erfüllt ist dann wird die "i"-Schleife erneut durchlaufen.
-Dies wird widerholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird, da die äußere Schleife verlassen wird. 
+Die erste For-Schleife ist die äußere Schleife mit Schleifenvariable i. In dieser ist eine zweite Schleife mit der Schleifenvariable k enthalten.
+Zuerst wird die innere "k"-Schleife 4 mal durchlaufen, in diesem Beispiel wird iZaehler1 dabei jedes mal um 1 erhöht.
+Danach wird iZaehler2 um 2 erhöht. Anschließend ist ist die "i"-Schleife zu Ende und i wird um 1 erhöht, solange i kleiner 4 ist. Anschließend die "i"-Schleife erneut durchlaufen.
+Dies wird widerholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird. Die äußere Schleife wird verlassen. 
 
 </details>
   
 
 
-## Tip - Widerstände speicher
+## Tip - Widerstände speichern
 
 <details>
  <summary>Click to expand</summary>
 
   
-   Berechen die Differenz zwischen dem aktuellen Widerstand und dem Wunschwiderstand. Achte dabei auch auf das Vorzeichen.
-   Ist der aktuelle Widerstand näher an dem gewünschten Widerstand als der zuletzt gespeicherte, speicher die neuen Werte.
-   Es können die Schleifenvariablen gespiechert werden, da über diese der aktuelle Widerstand ermittelt werden kann.
+   Berechnen Sie die Differenz zwischen dem aktuellen Widerstand und dem Wunschwiderstand. Achten Sie dabei auch auf das Vorzeichen.
+   Ist der aktuelle Widerstand näher an dem gewünschten Widerstand als der zuletzt gespeicherte, dann speichern Sie die neuen Werte.
+   Es sollten auch die Schleifenvariablen gespeichert werden, da über diese der aktuelle Widerstand ermittelt werden kann.
    Es können auch die ermittelten Widerstände gespeichert werden.
 
   </details>
