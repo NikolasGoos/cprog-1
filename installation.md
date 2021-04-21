@@ -487,6 +487,17 @@ In diesem Fall kann man das Anti-Virus Programm für einen kurzen Moment ausstel
 
 ## MacOS
 
+<details>
+<summary>xcrun: error: invalid active developer path... </summary>
+
+Dann hat die Installation von xcode-select nicht geklappt. Manchmal "verschwindet" die Installation auch nach einem Update, z.B. des Betriebssystems.
+
+Dies lässt sich im Terminal wie folgt beheben:
+
+> xcode-select --install
+
+</details>
+
 ## Windows
 
 ### Choco
