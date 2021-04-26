@@ -1,7 +1,7 @@
 # Aufgabe 8
 
 Diese Aufgabe führt Sie Schritt für Schritt an das Thema Unterfunktionen und Arrays heran.
-Sie müsssen daher nicht für jeden Teil eine neue Datei anlegen, sondern erweitern oder verändern Sie die zuletzt verwendete den Aufgaben entsprechend.
+Sie müssen daher nicht für jeden Teil eine neue Datei anlegen, sondern erweitern oder verändern Sie die zuletzt verwendete den Aufgaben entsprechend.
 
 ## Teil 1
 <details>
@@ -26,7 +26,7 @@ Hier nochmal in Kurzform:
 <details>
 <summary>Click to expand</summary>
   
-Berechne die Summe des Feldes mit hilfe einer for() oder while() Schleife.
+Berechnen Sie Summe des Feldes mit der Hilfe einer for() oder while() Schleife.
 
 
 </details>
@@ -37,7 +37,7 @@ Berechne die Summe des Feldes mit hilfe einer for() oder while() Schleife.
 <details>
 <summary>Click to expand</summary>
 
-Lass eine Zählschleife laufen und überprüfe welcher Wert kleiner bzw größer ist und speicher den Wert und die Stelle zB. in einer Hilfsvariable.
+Lass eine Zählschleife laufen und überprüfe, welcher Wert kleiner bzw. größer ist und speicher den Wert und die Stelle zum Beispiel in einer Hilfsvariable.
 
 </details>
 
@@ -73,7 +73,7 @@ Die Unterfunktionen sollen sollten diese Form aufweisen:
 
 <details>
 <summary>Click to expand</summary>
-  Erweitern Sie nun Ihr Programm um die aufgelistetetn Aufgaben.
+  Erweitern Sie nun Ihr Programm um die aufgelistetn Aufgaben.
   Diese sollen ebenfalls als Unterfunktionen in Ihrem Programm stehen.
   
 
@@ -118,13 +118,13 @@ Geben Sie das Feld vor und nach dem sortieren aus.
 ### Tip 1 (Info) - Felder sortieren
 <details>
 <summary>Click to expand</summary>
-_Sortieren von Feldern ist ein ganz wichtiger Bestandteilder Programmiernug. 
-Zu diesem Thema gibt es gleich eine gnaze Reihe an Verfahren, die sich in Komplexität und
+_Sortieren von Feldern ist ein ganz wichtiger Bestandteil der Programmierung. 
+Zu diesem Thema gibt es gleich eine ganze Reihe an Verfahren, die sich in Komplexität und
 Geschwindigkeit sehr unterscheiden._
 
 Der hier vorgestellte Algorithmus ist der 'Selection-sort'.
 Der Algorithmus ist vergleichsweise langsam, aber einfach.
-Man braucht 2 ineinander geschachtzelte Schleifen.
+Es werden 2 ineinander geschachtelte Schleifen verwendet.
 
    >   Bsp: mit 5 Werten: f[0]...f[4] enthalten 10 5 2 1 7
    >   1. Durchlauf i=0
