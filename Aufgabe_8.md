@@ -118,9 +118,9 @@ Geben Sie das Feld vor und nach dem sortieren aus.
 ### Tip 1 (Info) - Felder sortieren
 <details>
 <summary>Click to expand</summary>
-_Sortieren von Feldern ist ein ganz wichtiger Bestandteil der Programmierung. 
+Sortieren von Feldern ist ein ganz wichtiger Bestandteil der Programmierung. 
 Zu diesem Thema gibt es gleich eine ganze Reihe an Verfahren, die sich in Komplexität und
-Geschwindigkeit sehr unterscheiden._
+Geschwindigkeit sehr unterscheiden.
 
 Der hier vorgestellte Algorithmus ist der 'Selection-sort'.
 Der Algorithmus ist vergleichsweise langsam, aber einfach.
