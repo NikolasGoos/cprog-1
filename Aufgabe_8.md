@@ -1,67 +1,43 @@
 # Aufgabe 8
 
+Diese Aufgabe führt Sie Schritt für Schritt an das Thema Unterfunktionen und Arrays heran.
+Sie müsssen daher nicht für jeden Teil eine neue Datei anlegen, sondern erweitern oder verändern Sie die zuletzt verwendete den Aufgaben entsprechend.
+
 ## Teil 1
 <details>
 <summary>Click to expand</summary>
 
-Erstellen Sie ein Feld von 10 int-Werten und Initialisieren se das Feld mit beliebigen Daten.
+Erstellen Sie ein Feld von 10 int-Werten und Initialisieren Sie das Feld mit beliebigen Daten.
 Berechnen Sie die Summe aller Feldelemente und geben Sie die Summe aus.
 Berechnen Sie den Mittelwert aller Feldelemente und geben Sie diesen aus.
-Ermitteln Sie das größte Feldelement und geben sie dessen Position und Wert aus.
+Ermitteln Sie das größte Feldelement und geben Sie dessen Position und Wert aus.
+Das alles soll in der Hauptfunktion geschrieben werden.
 
+Hier nochmal in Kurzform:
 - [ ] Feld Initialisieren
 - [ ] Summe berechnen
 - [ ] Mittelwert berechnen
 - [ ] Größtes Feldelement suchen
 
 
-### Schritt 1
-
-Initialisiere ein Integer-Feld mit 10 beliebigen Zahlenwerten
-
-- [x] Feld Initialisieren
-- [ ] Summe berechnen
-- [ ] Mittelwert berechnen
-- [ ] Größtes Feldelement suchen
 
 
-### Schritt 2
-
-Berechne die Summe des Feldes mit hilfe einer for() oder while() Schleife als Unterfunktion.
-Die Summe soll auf dem Bildschirm ausgegeben werden.
-
-- [x] Feld Initialisieren
-- [x] Summe berechnen
-- [ ] Mittelwert berechnen
-- [ ] Größtes Feldelement suchen
+### Tip 1 - Summeberechnen
+<details>
+<summary>Click to expand</summary>
+  
+Berechne die Summe des Feldes mit hilfe einer for() oder while() Schleife.
 
 
-### Schritt 3
-
-Die Mittelwertberechnung soll ebenfalls als Unterfunktion geschrieben werden, welche die Unterfunktion für die Summe in sich aufruft.
-Der Mittelwert soll auf dem Bildschirm ausgegeben werden.
-
-- [x] Feld Initialisieren
-- [x] Summe berechnen
-- [x] Mittelwert berechnen
-- [ ] Größtes Feldelement suchen
+</details>
 
 
-### Schritt 4
 
-Schreiben Sie eine Schleife, welchen aus ihrem Feld das größte Element und dessen Position in dem Feld ermittelt und ausgibt.
-Sie können dafür eine Unterfunktion verwenden oder es direkt in der Haptfunktion schreiben.
-
-- [x] Feld Initialisieren
-- [x] Summe berechnen
-- [x] Mittelwert berechnen
-- [x] Größtes Feldelement suchen
-
-### Tip (Schritt 4)
+### Tip 2 - Feldelement
 <details>
 <summary>Click to expand</summary>
 
-Lass eine Zählschleife laufen und überprüfe welcher Wert kleiner bzw größer ist.
+Lass eine Zählschleife laufen und überprüfe welcher Wert kleiner bzw größer ist und speicher den Wert und die Stelle zB. in einer Hilfsvariable.
 
 </details>
 
@@ -74,33 +50,22 @@ Lass eine Zählschleife laufen und überprüfe welcher Wert kleiner bzw größer
 <details>
 <summary>Click to expand</summary>
 
-Strukturieren sie ihr Programm mit den folgenden Unterprogrammen
+Ihr Programm soll nun so erweitert/verändert werden, dass die unten aufgelisteten Aufgaben in Unterfunktionen stehen.
 
 - [ ] Summe berechnen
 - [ ] Mittelwert berechnen
-- [ ] Größtes Feldelement suchen
+- [ ] Größtes Feldelement und Stelle suchen
 
+Die Unterfunktionen sollen sollten diese Form aufweisen:
 >  int summe (int [10])
 >  
-Berechnung der Summe aller Elemente des übergebene Feldes int [10]     
-
-- [x] Summe berechnen
-- [ ] Mittelwert berechnen
-- [ ] Größtes Feldelement suchen
-
 
 > float mittelwert (int [10])
 > 
-Berechnung des Mittelewrts aller Elemente des übergebenen Feldes int [10]
-
-- [x] Summe berechnen
-- [x] Mittelwert berechnen
-- [ ] Größtes Feldelement suchen
 
 > int maximum (int [10], int*)
 > 
-Suche nach dem größten Feldelement und Ausgabe seiner Position (Index) im Feld.
-Nutzen Sie zur übergabe des Indexein call-byreference
+
 </details>
 
 
@@ -108,23 +73,17 @@ Nutzen Sie zur übergabe des Indexein call-byreference
 
 <details>
 <summary>Click to expand</summary>
+  Erweitern Sie nun Ihr Programm um die aufgelistetetn Aufgaben.
+  Diese sollen ebenfalls als Unterfunktionen in Ihrem Programm stehen.
   
-- [ ] Feld einlesen
-- [ ] Feld ausgeben
-- [ ] Summe, Mittelwert, größte Feldelement
 
 ### Feld einlesen
   
-  Erweiter Sie Ihr Hauptprogramm _int main ()_, damit der Benutzer ein  beliebiges 10er Feld
-  (siehe Aufgabe 8, Teil 1) über die Tastatur eingeben kann.
-  Schreibe dazu eine Funktion:
+  Der Benutzer soll ein beliebiges 10er Feld (Integer)
+  (siehe Aufgabe 8, Teil 1) über die Tastatur eingeben können.
   
   > void feld_einlesen(int [10])
   > 
-
-- [x] Feld einlesen
-- [ ] Feld ausgeben
-- [ ] Summe, Mittelwert, größte Feldelement
 
 
 ### Feld ausgeben
@@ -134,20 +93,11 @@ Entwickeln Sie ein Unterprogramm, um ein 10er Feld am Bildschirm anzeigen zu kö
 >void feld_ausgeben (int [10])
 >
 
-Ausgabe eines 10er Feldes am Bildschirm
-
-- [x] Feld einlesen
-- [x] Feld ausgeben
-- [ ] Summe, Mittelwert, größte Feldelement
-
 ### Feld berechenen
 
 Berechnen Sie für das vom Benutzer eingegebene Feld die Summe, den Mittelwert, das größte Feldelement und zeigen Sie das Feld an.
 Benutzen Sie dafür die Unterprogramme aus 8.2
 
-- [x] Feld einlesen
-- [x] Feld ausgeben
-- [x] Summe, Mittelwert, größte Feldelement
 
   </details>
   
@@ -157,13 +107,17 @@ Benutzen Sie dafür die Unterprogramme aus 8.2
 <details>
 <summary>Click to expand</summary>
   
-  Erweitern Sie Ihr Programm um ein Unterprogramm, welches das Feld sortiert
+  Erweitern Sie Ihr Programm um ein weiteres Unterprogramm, welches das Feld sortiert.
   
   > void feld_sortieren (int[10])
   > 
 
 Geben Sie das Feld vor und nach dem sortieren aus.
 
+
+### Tip 1 (Info) - Felder sortieren
+<details>
+<summary>Click to expand</summary>
 _Sortieren von Feldern ist ein ganz wichtiger Bestandteilder Programmiernug. 
 Zu diesem Thema gibt es gleich eine gnaze Reihe an Verfahren, die sich in Komplexität und
 Geschwindigkeit sehr unterscheiden._
@@ -190,5 +144,5 @@ Man braucht 2 ineinander geschachtzelte Schleifen.
    >   ........... 
 
   
-  
+  </details>
   </details>
