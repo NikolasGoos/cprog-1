@@ -127,22 +127,54 @@ Der Algorithmus ist vergleichsweise langsam, aber einfach.
 Es werden 2 ineinander geschachtelte Schleifen verwendet.
 
    >   Bsp: mit 5 Werten: f[0]...f[4] enthalten 10 5 2 1 7
+   >   
    >   1. Durchlauf i=0
+   >   
    >   i:0    j: läuft von 1 bis 4. Falls f[j] kleiner als f[i] ist, dann tausche beide Werte
+   >   
    >   i=0  j=1;  10 5 2 1 7 -> f[1]=5  <   f[0]=10 -> tasuche: 5 und 10
+   >   
    >   i=0  j=2;  5 10 2 1 7 -> f[2]=2  <   f[0]=5 -> tasuche: 5 und 2
+   >   
    >   i=0  j=3;  2 10 5 1 7 -> f[3]=1  <   f[0]=2 -> tasuche: 2 und 1
+   >   
    >   i=0  j=4;  1 10 5 2 7 -> f[4]=7  <   f[0]=1 _Nein_ -> nicht tauschen
+   >   
    >   f[0] ist das kleinste Element, weiter mit den restlichen Elementen
    >
+
    >   2. Durchlauf i=1
+   >   
    >   i:i    j: läuft von 2 bis 4. Falls f[j] kleiner als f[i] ist, dann tausche beide Werte
+   >   
    >   i=1  j=2;  1 10 5 2 7 -> f[2]=5  <   f[1]=10 -> tasuche: 5 und 10
+   >   
    >   i=1  j=3;  5 10 2 1 7 -> f[3]=2  <   f[1]=2 -> tasuche: 5 und 2
+   >   
    >   i=1  j=4;  2 10 5 1 7 -> f[4]=7  <   f[1]=2 _Nein_ -> nicht tauschen
+   >   
    >   f[0] und f[1] sind sortiert, weiter mit dem Rest
+   >   
    >   ........... 
 
-  
+ ## !Achtung!
+ 
+ Der Code, den Sie hier sehen werden, sortiert das Feld _nicht_ von kleine (links) nach groß (rechts).
+ Er veranschaulicht allerdings den oben genannten Algorithmus.
+ 
+ 
+Die Variable m ist 1 also werden die Werte 5 und 6 verglichen. Da 5 kleiner ist als 6 ist die if-Bedingung erfüllt und die beiden Zahlen werden getauscht
+
+  ![Screenshot (22)](https://user-images.githubusercontent.com/79829648/116119758-0fdc6b00-a6bf-11eb-85ed-0fe9caceb7be.png)
+  ![Screenshot (23)](https://user-images.githubusercontent.com/79829648/116119966-4f0abc00-a6bf-11eb-8eb5-73b9500347f6.png)
+  ![Screenshot (24)](https://user-images.githubusercontent.com/79829648/116120004-5df16e80-a6bf-11eb-8ac1-17c1d179770b.png)
+ 
+ Das nächste mal werden die 3 und die 5 getauscht.
+ ![Screenshot (28)](https://user-images.githubusercontent.com/79829648/116120153-85e0d200-a6bf-11eb-9367-c5016afdbce9.png)
+ 
+ Nachdem alle Zahlen für die k-Schleife durchlaufen wurden wird das aktuelle Feld ausgegeben und die Schleife wiederholt sich jetzt mit i=1.
+ ![Screenshot (30)](https://user-images.githubusercontent.com/79829648/116120490-dfe19780-a6bf-11eb-97f9-cfcee8e6c36d.png)
+
+
   </details>
   </details>
