@@ -498,6 +498,17 @@ Dies lässt sich im Terminal wie folgt beheben:
 
 </details>
 
+<details>
+<summary>"GitLens was unable to find Git. Please make sure Git is installed. Also ensure that Git is either in the PATH, or that 'git.path' is pointed to its installed location."</summary>
+
+Dann hat vermutlich die Installation von xcode-select nicht geklappt. Manchmal "verschwindet" die Installation auch nach einem Update, z.B. des Betriebssystems.
+
+Dies lässt sich im Terminal wie folgt beheben:
+
+> xcode-select --install
+
+</details>
+
 ## Windows
 
 ### Choco
