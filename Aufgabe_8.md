@@ -37,7 +37,7 @@ Berechnen Sie Summe des Feldes mit der Hilfe einer for() oder while() Schleife.
 <details>
 <summary>Click to expand</summary>
 
-Lass eine Zählschleife laufen und überprüfe, welcher Wert kleiner bzw. größer ist und speicher den Wert und die Stelle zum Beispiel in einer Hilfsvariable.
+Lassen Sie eine Zählschleife laufen und überprüfe, welcher Wert kleiner bzw. größer ist und speichern Sie den Wert und die Stelle zum Beispiel in einer Hilfsvariable ab.
 
 </details>
 
@@ -56,7 +56,7 @@ Ihr Programm soll nun so erweitert/verändert werden, dass die unten aufgelistet
 - [ ] Mittelwert berechnen
 - [ ] Größtes Feldelement und Stelle suchen
 
-Die Unterfunktionen sollen sollten diese Form aufweisen:
+Die Unterfunktionen sollten diese Form aufweisen:
 >  int summe (int [10])
 >  
 
