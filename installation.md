@@ -97,7 +97,9 @@ Spätestens jetzt können wir uns hoffentlich über unser erstes Programm freuen
 
 <img width="283" alt="image" src="https://user-images.githubusercontent.com/78163337/112049524-09068980-8b50-11eb-94c8-79f7167ca78e.png">
 
-Damit wir später auch Programme mit Benutzereingaben ausführen können, klicken wir unten links auf das Zahnrad und wählen dann Settings.
+##### Code-Runner
+
+Damit wir später auch Programme mit Benutzereingaben, z. B. mit scanf, ausführen können, klicken wir unten links auf das Zahnrad und wählen dann Settings.
 
 <img width="219" alt="image" src="https://user-images.githubusercontent.com/78163337/112049574-1ae82c80-8b50-11eb-9a04-7d40bc4943b6.png">
 
@@ -237,6 +239,8 @@ Weiter unten sehen wir in der Mitte von vielen anderen, eher kryptisch anmutende
 <img width="283" alt="image" src="https://user-images.githubusercontent.com/78163337/111458210-77df7f00-8719-11eb-9e41-39180d41cfda.png">
 
 Wer diese Ausgabe *nicht* erhält sollte sich an dieser Stelle der Troubleshooting-Sektion zuwenden. Solange ein Programm nicht abgearbeitet wird, wird auch das Folgende nicht funktionieren.
+
+##### code-runner
 
 Damit unsere Programme später Input vom Terminal entgegennehmen können, z. B. mit scanf, müssen wir noch eine Einstellung vornehmen.
 
@@ -488,9 +492,8 @@ In diesem Fall kann man das Anti-Virus Programm für einen kurzen Moment ausstel
 ## MacOS
 
 ### XCRUN
-
 <details>
-### <summary>xcrun: error: invalid active developer path... </summary>
+<summary>xcrun: error: invalid active developer path... </summary>
 
 Dann hat die Installation von xcode-select nicht geklappt. Manchmal "verschwindet" die Installation auch nach einem Update, z.B. des Betriebssystems.
 
@@ -500,6 +503,7 @@ Dies lässt sich im Terminal wie folgt beheben:
 
 </details>
 
+### GitLens
 <details>
 <summary>"GitLens was unable to find Git. Please make sure Git is installed. Also ensure that Git is either in the PATH, or that 'git.path' is pointed to its installed location."</summary>
 
