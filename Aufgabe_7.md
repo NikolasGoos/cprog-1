@@ -1,5 +1,6 @@
 # Aufgabe 7
 
+
 Sie suchen für Ihr Projekt einen Widerstand. Sie haben den Baukasten der E12 Reihe mit den Widerständen von 1 bis 10.000.
 Leider ist kein Widerstand dabei, der nah genug an ihrem Wunschwert liegt. Sie möchten dem durch 2 parallel geschaltete Widerstände aus der E12 Reihe möglichst nahe kommen.  Entwickeln Sie ein Programm, das alle Kombinationen automatisch erstellt und das beste Widerstandspaar für Sie ermittelt und ausgibt.
 Ihr Programm soll die folgenden Punkte erfüllen:  
@@ -89,15 +90,54 @@ Dies wird widerholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird.
   
 
 
+
 ## Tip - Widerstände speichern
+
 
 <details>
  <summary>Click to expand</summary>
 
+
+Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn sie am dichtesten an dem gewünschten Wert sind.
+
+
+ - [x] E12 Reihe
+ - [x] Parallelschaltung
+ - [x] Widerstände finden
+ - [x] Widerstände speicher
+
+
   
-   Berechnen Sie die Differenz zwischen dem aktuellen Widerstand und dem Wunschwiderstand. Achten Sie dabei auch auf das Vorzeichen.
-   Ist der aktuelle Widerstand näher an dem gewünschten Widerstand als der zuletzt gespeicherte, dann speichern Sie die neuen Werte.
-   Es sollten auch die Schleifenvariablen gespeichert werden, da über diese der aktuelle Widerstand ermittelt werden kann.
-   Es können auch die ermittelten Widerstände gespeichert werden.
+  ### Tip 4
+  
+  <details>
+ <summary>Click to expand</summary>
+  
+   Berechne die Differenz zwischen dem letzten und aktuellen Widerstand im Vergleich zum gewünschten Widerstand, speichere den besseren.
+   Speicher den Zähler und übergib ihn am Ende wieder der passenden Unterfunktion, um den ermittelten Widerstand zu bestimmen.
+   Überprüfe, ob die Differenz negativ ist.
+    
+  
+   </details>
 
   </details>
+
+## Zusatz
+
+<details>
+ <summary>Click to expand</summary>
+  
+  Bitte erst dann weiter machen, wenn alles zuvor funktioniert!
+
+### Let's Go
+<details>
+ <summary>Click to expand</summary>
+ 
+ Du kannst nun 3 Widerstände für deinen gesuchten Widerstand benutzen und beliebig anordnen.
+ Schriebe dein Programm so um, dass die gegebene E12 Reihe den gesucht Widerstand aus allen möglichen Kombinationen die beste Kombination berechnet.
+ Die Widerstandswerte und die verwendete Kombination sind am Ende auf dem Bildschirm auszugeben.
+ 
+ </details>
+  </details>
+
+
