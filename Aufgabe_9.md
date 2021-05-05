@@ -1,11 +1,10 @@
 # Aufgabe 9
 
-Erstellen und testen Sie ein Programm, das für eine belibige Ganzzahl die nächsthöhere gerade Zahl ausgibt. Falls die Zahl bereits gerade ist, ist die Zahl selbst auszugeben. 
+Erstellen und testen Sie ein Programm, das für eine beliebige Ganzzahl die nächsthöhere gerade Zahl ausgibt. Falls die Zahl bereits gerade ist, ist die Zahl selbst auszugeben. 
 Die Zahl ist durch den Benutzer einzugeben.
 
 ## Teil 1
-<details>
-<summary>Click to expand</summary>
+
   
   Erstellen Sie hierzu folgende Unterprogramme
   
@@ -29,11 +28,10 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
   
   Erstellen Sie das Struktogramm für Ihr Hauptprogramm und für die Unterfunktionen
   </details>
-  </details>
+
   
   ## Teil 2
-   <details>
-<summary>Click to expand</summary>
+
   
   Erweitern Sie Ihr Programm um eine weiter Funktion, die überprüft, ob die eingegebene Zahl mindestens 5-stellig ist und diese bei Bedarf korrigiert.
   
