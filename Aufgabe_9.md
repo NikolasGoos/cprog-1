@@ -10,17 +10,48 @@ Die Zahl ist durch den Benutzer einzugeben.
   
   >void eingeben (int*)
   >
-_erhält einen Zeiger auf eine Zahl und ermöglicht die Eingabe dieser Zahl durch die Tastatur._
+_Erhält einen Zeiger auf eine Zahl und ermöglicht die Eingabe dieser Zahl durch die Tastatur._
 
 >void korrigieren (int*)
 >
-_erhält einen Zeiger auf die vorher eingegeben Zahl und korrigiert diese, falls sie ungerade ist._
+_Erhält einen Zeiger auf die vorher eingegeben Zahl und korrigiert diese, falls sie ungerade ist._
 
 >void ausgeben (int*)
 >
-_erhält einen Zeiger auf die vorher eingegebene und korrigierte Zahl und gibt diese mit Wert und Adresse am Bildschirm aus._
+_Erhält einen Zeiger auf die vorher eingegebene und korrigierte Zahl und gibt diese mit Wert und Adresse am Bildschirm aus._
 
 Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
+
+## Beispiel Pointer
+<details>
+<summary>Click to expand</summary>
+  
+  Sie werden einen Programmcode sehen, welcher ähnlich dem zu dieser Aufgabe ist.
+  Der Code, den Sie auf den Bildern sehen, bearbeitet die folgenden Punkte:
+  
+  - [ ] Buchstabe einlesen
+  - [ ] Buchstabe verändern
+  - [ ] Buchstabe ausgeben
+
+Im ersten Punkt mit "Buchstabe einlesen", ist noch eine Fehlerabfrage eingebaut, welche vom Verständnis etwas schwierigerer ist. In den Kommentaren steht dazu aber genug.
+
+# Main
+![Screenshot (31)](https://user-images.githubusercontent.com/79829648/117532858-e9d19780-afe9-11eb-8998-6357607d014e.png)
+
+# Buchstaben einlesen
+![Screenshot (32)](https://user-images.githubusercontent.com/79829648/117532867-f2c26900-afe9-11eb-8734-7e47b38f4da7.png)
+
+# Buchstaben verändern
+![Screenshot (33)](https://user-images.githubusercontent.com/79829648/117532872-f7871d00-afe9-11eb-9e77-71b95c358ac3.png)
+
+# Buchstaben ausgeben
+![Screenshot (34)](https://user-images.githubusercontent.com/79829648/117532875-fa820d80-afe9-11eb-85b4-f26a4f26048d.png)
+
+
+  
+  
+  
+  </details>
 
 ## Zusatz
 <details>
