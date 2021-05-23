@@ -25,6 +25,8 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
 ## Beispiel Pointer
 <details>
 <summary>Click to expand</summary>
+  
+  
 
   In dem folgenden Beispiel wird ein Pointer an ein Unterprogramm übergeben und in diesem Unterprogramm wird der eingelesen Wert direkt an die in der main deklarierten Variable gespeichert.
   ![Screenshot (37)](https://user-images.githubusercontent.com/79829648/119266126-d2013280-bbe9-11eb-9bcf-8f5c2fb8c82f.png)
