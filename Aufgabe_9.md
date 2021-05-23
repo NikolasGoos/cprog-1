@@ -25,7 +25,14 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
 ## Beispiel Pointer
 <details>
 <summary>Click to expand</summary>
+
+  In dem folgenden Beispiel wird ein Pointer an ein Unterprogramm übergeben und in diesem Unterprogramm wird der eingelesen Wert direkt an die in der main deklarierten Variable gespeichert.
+  ![Screenshot (37)](https://user-images.githubusercontent.com/79829648/119266126-d2013280-bbe9-11eb-9bcf-8f5c2fb8c82f.png)
+An der Ausgabe kann das nachvefolgt werden.
   
+  ## Ausführlich
+  <details>
+<summary>Click to expand</summary>
   Sie werden einen Programmcode sehen, welcher ähnlich dem zu dieser Aufgabe ist.
   Der Code, den Sie auf den Bildern sehen, bearbeitet die folgenden Punkte:
   
@@ -49,8 +56,7 @@ Im ersten Punkt mit "Buchstabe einlesen", ist noch eine Fehlerabfrage eingebaut,
 
 
   
-  
-  
+  </details>
   </details>
 
 ## Zusatz
